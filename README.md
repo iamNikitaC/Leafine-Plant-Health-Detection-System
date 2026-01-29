@@ -1,79 +1,125 @@
 # Leafine: Plant Disease Detection Application
 
-**Leafine** is a cutting-edge mobile application designed to revolutionize agriculture by providing real-time, non-intrusive, and highly accurate plant health assessments. By leveraging **Artificial Intelligence**, **Deep Learning**, and **Computer Vision**, the application empowers farmers and researchers to detect diseases early, thereby reducing crop losses and promoting sustainable farming practices.
+**Leafine** is a cutting-edge mobile application designed to provide real-time, non-intrusive, and highly accurate plant health assessments. Developed to address the rising challenges of climate change and pest infestations, it leverages **Deep Learning** and **Convolutional Neural Networks (CNNs)** to help farmers and researchers make informed crop management decisions.
 
 ---
 
 ## 📑 Published Paper
 
-This project was published in the *Journal of Emerging Technologies and Innovative Research (JETIR)*.
+This project was documented and published in the *Journal of Emerging Technologies and Innovative Research (JETIR)*.
 
+* 
 **Title:** Leafine: Plant Disease Detection Application 
 
-**Link:** [Read the full paper on JETIR](https://www.jetir.org/view?paper=JETIR2310202) 
+
+* 
+**Journal:** JETIR October 2023, Volume 10, Issue 10 
+
+
+* 
+**ISSN:** 2349-5162 
+
+
+* 
+**Paper Link:** [View on JETIR](https://www.jetir.org) 
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
-**Real-time Detection:** Uses a smartphone camera to capture and analyze leaf images instantly.
+* 
+**Real-time Detection:** Analyzes leaf images via a smartphone camera to provide immediate disease status.
 
-**High Accuracy:** Built on the **VGG-16 CNN architecture** to differentiate between healthy and diseased plants.
+* 
+**Visual Signal Recognition:** Quickly detects subtle signals such as lesions, color variations, and irregularities.
 
-**Early Identification:** Detects subtle visual signals like color variations, lesions, and irregularities before major damage occurs.
+* 
+**User-Friendly Interface:** Presents complex AI analysis in an easy-to-understand UI for farmers and conservationists.
 
-**User-Friendly Interface:** Results are presented in a simple, easy-to-understand UI for farmers and conservationists.
+* 
+**Scalability:** Flexible enough for diverse agricultural, horticultural, and ecological applications.
 
-**Scalability:** Suitable for various agricultural, horticultural, and ecological applications.
+* 
+**Early Intervention:** Empowers stakeholders to identify diseases early, reducing crop losses that can reach up to 50%.
 
 ---
 
-## 🛠️ Tech Stack
+## 💡 Motivation & Problem Statement
 
-### Software Requirements
+In India, agriculture employs more than 60% of the population, yet crop diseases lead to devastating yield losses.
 
+* 
+**The Problem:** Many farmers lack the tools or technical knowledge to identify a wide range of infections, often noticing damage only when it is too late.
+
+* 
+**The Goal:** To bridge this gap by providing an automated, computer-aided technique for disease identification and classification through simple leaf photos.
+
+---
+
+## 🛠️ Technical Architecture
+
+The system is built on the **VGG-16** CNN architecture, chosen for its effectiveness in image classification tasks.
+
+### Implementation Workflow
+
+1. **Data Collection:** Gathering a large dataset of healthy and diseased plant images.
+
+2. **Pre-processing:** Resizing images to **224x224** pixels and normalizing pixel values to a [0, 1] scale.
+
+3. **Model Design:** Using a pre-trained VGG-16 base, removing the top layer, and adding custom layers for binary classification.
+
+4. **Training:** Utilizing **Binary Cross-Entropy** as the loss function and the **Adam/SGD** optimizer.
+
+5. **Deployment:** Integrating the trained model into an Android mobile application for live detection.
+
+
+### Tech Stack
+
+**Software Requirements**
+
+* 
 **Language:** Python 3.9 
 
-**Libraries:** TensorFlow, Keras 
+* 
+**Deep Learning Framework:** TensorFlow 
 
-**IDE:** PyCharm 
+* 
+**Neural Networks Library:** Keras 
 
-**Platform:** Android (Mobile Application) 
+* 
+**IDE:** PyCharm
+  
 
+**Hardware Requirements**
 
-### Hardware Requirements
- 
-**RAM:** Minimum 8 GB 
+* 
+**Mobile Operating System:** Android 
 
-**Device:** Android-supported smartphone with a camera 
-
----
-
-## 📊 Methodology
-
-The system follows a structured pipeline to ensure reliable disease classification:
-
-1. 
-**Data Collection:** A large dataset of healthy and diseased plant images is collected and manually annotated.
-
-
-2. 
-**Pre-processing:** Images are resized (e.g., 224x224 pixels) and pixel values are normalized.
-
-
-3. 
-**Model Design:** A pre-trained **VGG-16** model is used as the backbone, with custom classification layers added to the top.
-
-
-4. 
-**Training & Fine-Tuning:** The model is trained using Binary Cross-Entropy loss and optimized with Adam/SGD.
-
-
-5. 
-**Evaluation:** Performance is measured using accuracy, precision, recall, and F1-score, alongside a confusion matrix.
+* 
+**Memory:** Minimum 8 GB RAM 
 
 ---
 
-## 📈 Results
+## 📊 Performance & Results
 
-The model demonstrates impressive performance metrics, effectively differentiating healthy plants from those suffering from diseases like **Common Rust** (Corn) or **Black Rot** (Apple/Grape).
+The model demonstrated high metrics across accuracy, precision, recall, and F1-score. Successful detections observed in testing include:
+
+* 
+**Corn (Maize):** Common Rust 
+
+* 
+**Grape Plant:** Black Rot 
+
+* 
+**Apple Plant:** Black Rot 
+
+* 
+**Healthy Status:** Correct identification of healthy grape leaves 
+
+---
+
+## 👥 Authors & Acknowledgments
+
+**Department:** Computer Engineering, SIES Graduate School of Technology 
+
+**Acknowledgment:** We extend our sincere gratitude to our coordinator, Director, HOD, and faculty members for their continuous support and resources.
