@@ -8,39 +8,23 @@
 
 This project was documented and published in the *Journal of Emerging Technologies and Innovative Research (JETIR)*.
 
-* 
-**Title:** Leafine: Plant Disease Detection Application 
+* **Title:** Leafine: Plant Disease Detection Application 
 
-
-* 
-**Journal:** JETIR October 2023, Volume 10, Issue 10 
-
-
-* 
-**ISSN:** 2349-5162 
-
-
-* 
-**Paper Link:** [View on JETIR](https://www.jetir.org) 
+* **Paper Link:** [View on JETIR](https://www.jetir.org/view?paper=JETIR2310202) 
 
 ---
 
 ## 🚀 Key Features
 
-* 
-**Real-time Detection:** Analyzes leaf images via a smartphone camera to provide immediate disease status.
+* **Real-time Detection:** Analyzes leaf images via a smartphone camera to provide immediate disease status.
 
-* 
-**Visual Signal Recognition:** Quickly detects subtle signals such as lesions, color variations, and irregularities.
+* **Visual Signal Recognition:** Quickly detects subtle signals such as lesions, color variations, and irregularities.
 
-* 
-**User-Friendly Interface:** Presents complex AI analysis in an easy-to-understand UI for farmers and conservationists.
+* **User-Friendly Interface:** Presents complex AI analysis in an easy-to-understand UI for farmers and conservationists.
 
-* 
-**Scalability:** Flexible enough for diverse agricultural, horticultural, and ecological applications.
+* **Scalability:** Flexible enough for diverse agricultural, horticultural, and ecological applications.
 
-* 
-**Early Intervention:** Empowers stakeholders to identify diseases early, reducing crop losses that can reach up to 50%.
+* **Early Intervention:** Empowers stakeholders to identify diseases early, reducing crop losses that can reach up to 50%.
 
 ---
 
@@ -48,11 +32,9 @@ This project was documented and published in the *Journal of Emerging Technologi
 
 In India, agriculture employs more than 60% of the population, yet crop diseases lead to devastating yield losses.
 
-* 
-**The Problem:** Many farmers lack the tools or technical knowledge to identify a wide range of infections, often noticing damage only when it is too late.
+* **The Problem:** Many farmers lack the tools or technical knowledge to identify a wide range of infections, often noticing damage only when it is too late.
 
-* 
-**The Goal:** To bridge this gap by providing an automated, computer-aided technique for disease identification and classification through simple leaf photos.
+* **The Goal:** To bridge this gap by providing an automated, computer-aided technique for disease identification and classification through simple leaf photos.
 
 ---
 
@@ -77,26 +59,20 @@ The system is built on the **VGG-16** CNN architecture, chosen for its effective
 
 **Software Requirements**
 
-* 
-**Language:** Python 3.9 
+* **Language:** Python 3.9 
 
-* 
-**Deep Learning Framework:** TensorFlow 
+* **Deep Learning Framework:** TensorFlow 
 
-* 
-**Neural Networks Library:** Keras 
+* **Neural Networks Library:** Keras 
 
-* 
-**IDE:** PyCharm
+* **IDE:** PyCharm
   
 
 **Hardware Requirements**
 
-* 
-**Mobile Operating System:** Android 
+* **Mobile Operating System:** Android 
 
-* 
-**Memory:** Minimum 8 GB RAM 
+* **Memory:** Minimum 8 GB RAM 
 
 ---
 
@@ -104,17 +80,13 @@ The system is built on the **VGG-16** CNN architecture, chosen for its effective
 
 The model demonstrated high metrics across accuracy, precision, recall, and F1-score. Successful detections observed in testing include:
 
-* 
-**Corn (Maize):** Common Rust 
+* **Corn (Maize):** Common Rust 
 
-* 
-**Grape Plant:** Black Rot 
+* **Grape Plant:** Black Rot 
 
-* 
-**Apple Plant:** Black Rot 
+* **Apple Plant:** Black Rot 
 
-* 
-**Healthy Status:** Correct identification of healthy grape leaves 
+* **Healthy Status:** Correct identification of healthy grape leaves 
 
 ---
 
